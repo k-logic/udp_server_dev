@@ -12,7 +12,6 @@ using asio::awaitable;
 using asio::use_awaitable;
 using asio::co_spawn;
 using asio::detached;
-namespace this_coro = asio::this_coro;
 
 class UdpServer {
 public:
